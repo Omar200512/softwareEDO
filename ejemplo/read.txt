@@ -1,0 +1,3 @@
+cd C:\Users\DELL\Desktop\Jordy\Semestre 2\EDO\BITW\python_latex-ejemplo\ejemplo\tex
+
+FOR %i IN (*.tex) DO pdflatex %i && DEL %~ni.log %~ni.aux %~ni.out
